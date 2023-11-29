@@ -35,6 +35,13 @@
             background-color: $main-color;
             border: none;
         }
+        @media (max-width:576px) {
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
     &__content {
         margin-top: 60px;
@@ -43,6 +50,9 @@
         flex-wrap: wrap;
         &_active {
             display: flex;
+        }
+        @media (max-width:768px) {
+            justify-content: center;
         }
     }
     &-item {

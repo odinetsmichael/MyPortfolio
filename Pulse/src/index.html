@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <section id="up" class="promo">
         <div class="container">
-            <header class="header">
-                <a href="#" class="header__logo">
+            <header class="header row justify-content-end">
+                <a href="#" class="header__logo col-md-4 col-6">
                     <img src="icons/logo.png" alt="logo">
                 </a>
-                <div class="header__official">
+                <div class="header__official col-md-4 col-6">
                     Офіційний представник
                     <span>Garmin, Polar, Suunto</span>
                 </div>
-                <div class="header__contacts">
+                <div class="header__contacts col-md-4 col-6">
                     <a href="tel:+380999999999" class="header__phone">+380 (99)-999-99-99</a>
                     <button data-modal="consultation" class="button">замовити дзвінок</button>
                 </div>
@@ -59,8 +60,8 @@
     <section class="advantages">
         <div class="container">
             <h2 class="title">НАШІ ПЕРЕВАГИ</h2>
-            <div class="advantages__wrapper">
-                <div class="advantages__item">
+            <div class="row mt-4">
+                <div class="advantages__item col-md-4">
                     <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon">
                     <div class="advantages__subtitle">
                         Ділимося досвідом
@@ -70,7 +71,7 @@
                          бо самі бігають напівмарафони, перепливли Босфор, готуються до змагань з тріатлону!
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item col-md-4 mt-4">
                     <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">
                         Дбаємо про здоров'я
@@ -80,7 +81,7 @@
                          щоб Ваші заняття спортом йшли на користь Вашому здоров'ю та були на радість Вам та Вашим близьким!
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item col-md-4">
                     <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon">
                     <div class="advantages__subtitle">
                         Вчимо бігати
@@ -150,8 +151,9 @@
                             <div class="catalog-item__descr">Для перших кроків у тренуваннях, заснованих на серцевому ритмі</div>
                             <a href="#" class="catalog-item__link">ДЕТАЛЬНІШЕ</a>
                         </div>
-                        <ul class="catalog-item__list ">
-                            <li>Ви почуєте звукове сповіщення про потрібний пульс під час тренування;
+                        <ul class="catalog-item__list">
+                            <li>
+                                Ви почуєте звукове сповіщення про потрібний пульс під час тренування;
                             </li>
                             <li>
                                 Ви побачите інформативний графічний індикатор цільових тренувальних зон пульсу;
