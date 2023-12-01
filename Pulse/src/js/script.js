@@ -36,7 +36,7 @@ $(document).ready(function(){
 
     // Modal
 
-    $('[data-modal-window=consultation]').on('click', function() {
+    $('[data-modal=consultation]').on('click', function() {
         $('.overlay, #consultation').fadeIn('slow');
     });
     $('.modal-window__close').on('click', function() {

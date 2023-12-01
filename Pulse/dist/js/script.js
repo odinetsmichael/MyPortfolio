@@ -36,7 +36,7 @@ $(document).ready(function(){
 
     // Modal
 
-    $('[data-modal-window=consultation]').on('click', function() {
+    $('[data-modal=consultation]').on('click', function() {
         $('.overlay, #consultation').fadeIn('slow');
     });
     $('.modal-window__close').on('click', function() {
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
     $('.button_mini').each(function(i) {
         $(this).on('click', function() {
-            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+            $('#order .modal-window__descr').text($('.catalog-item__subtitle').eq(i).text());
             $('.overlay, #order').fadeIn('slow');
         })
     });
@@ -65,13 +65,13 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "Пожалуйста, введите свое имя",
-                    minlength: jQuery.validator.format("Введите {0} символа!")
+                    required: "Будь ласка, введіть своє ім'я",
+                    minlength: jQuery.validator.format("Введіть {0} символу!")
                   },
-                phone: "Пожалуйста, введите свой номер телефона",
+                phone: "Будь ласка, введіть свій номер телефону",
                 email: {
-                  required: "Пожалуйста, введите свою почту",
-                  email: "Неправильно введен адрес почты"
+                  required: "Будь ласка, введіть свою пошту",
+                  email: "Неправильно введена адреса пошти"
                 }
             }
         });
