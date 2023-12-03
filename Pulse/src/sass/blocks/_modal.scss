@@ -23,6 +23,14 @@
         line-height: 21px;
         color: $main-color;
         cursor: pointer;
+        @media (max-width:576px) {
+            top: 2px;
+            right: 2px;
+        }
+    }
+    @media (max-width:576px) {
+        width: 90%;
+        padding: 38px 15px 40px 15px;
     }
     &__subtitle {
         color: #0d0d0d;
