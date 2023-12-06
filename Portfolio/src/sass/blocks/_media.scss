@@ -75,7 +75,8 @@
     }
     .about {
         &__wrapper {
-            grid-template-columns: 300px 380px;
+            grid-template-columns: 355px 380px;
+            column-gap: 15px;
         }
         &__skills {
             grid-template-columns: 380px;
@@ -141,7 +142,7 @@
     .about {
         padding-top: 40px;
         &__wrapper {
-            grid-template: 400px auto auto / 1fr;
+            grid-template: 525px auto auto / 1fr;
         }
         &__photo {
             grid-row: unset;
@@ -233,10 +234,13 @@
     }
     .about {
         &__wrapper {
-            grid-template: 340px auto auto / 1fr;
+            grid-template: 500px auto auto / 1fr;
         }
         &__skills {
             grid-template-columns: 1fr;
+            &-item{
+                grid-template-columns: 1fr;
+            }
         }
     }
     .resume {
