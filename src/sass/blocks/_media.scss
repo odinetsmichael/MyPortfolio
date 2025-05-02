@@ -87,12 +87,6 @@
             }
         }
     }
-    .resume {
-        &__wrapper {
-            column-gap: 60px;
-            grid-template-columns: repeat(2,320px);
-        }
-    }
     .skills {
         &__items {
             padding: 0 20px;
